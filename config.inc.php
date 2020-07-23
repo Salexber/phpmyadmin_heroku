@@ -28,7 +28,7 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = $_ENV['MYSQL_HOST'];
+$cfg['Servers'][$i]['host'] = $_ENV['mysql://b300d45d4d49e0:1d71ecfd@eu-cdbr-west-03.cleardb.net/heroku_ea410864402c427?reconnect=true'];
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
